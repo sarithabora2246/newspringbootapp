@@ -14,7 +14,7 @@ pipeline {
         }
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/sarithabora2246/newspringbootapp.git'
+        git branch: 'main', url: 'https://github.com/sarithabora2246/helloworld.git'
       }
     }
     stage('Pull Changes') {
